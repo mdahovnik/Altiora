@@ -2,7 +2,7 @@
 
 import { backendUrls, fetchWrapper, typeApiResponse } from '@shared/lib/api'
 import { typePostListResponse, typePostResponse } from '../types'
-import { createRoute } from '@shared/routes'
+import { createRoute } from '@shared/configs/routes'
 
 // Серверный экшен получения списка постов
 export const getPostListAction = async (): Promise<typeApiResponse<typePostListResponse>> => {

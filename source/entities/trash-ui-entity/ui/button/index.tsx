@@ -15,16 +15,16 @@ export const UIButton: React.FC = () => {
       ]}
       components={
         <>
-          <Button>Button</Button>
+          <Button>Button Default</Button>
 
-          <Button disabled>Button</Button>
+          <Button disabled>Button Default Disabled</Button>
 
           <Button variant="fill" onClick={() => alert('fill')}>
-            Button
+            Button Fill
           </Button>
 
           <Button variant="fill" disabled>
-            Button
+            Button Fill Disabled
           </Button>
         </>
       }
