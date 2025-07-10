@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Предустановленный проект Next.js
 
-## Getting Started
+## Установка проекта
 
-First, run the development server:
+```bash
+npm install
+npm run prepare
+```
+
+## Запуск проекта в development режиме
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Скрипты
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+`npm run dev` - Запуск проекта в development режиме
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+`npm run build` - Сборка проекта
 
-## Learn More
+`npm run start` - Запуск проекта в production режиме
 
-To learn more about Next.js, take a look at the following resources:
+`npm run prepare` - Команда библиотеки husky
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`npm run lint:next` - Проверка проекта встроенной командой next
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`npm run lint:fix` - Проверка eslint и исправление ошибок
 
-## Deploy on Vercel
+`npm run format` - Форматирование проекта prettier
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Переменные окружения
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+В коде проекта используется файл `.env.example`, он является примером для создания файла с переменными окружения. В демонстрационной версии проекта файл нужно скопировать и переименовать в `.env`. В нем находятся переменные
+
+`NEXT_PUBLIC_SITE_NAME` - пример публичной переменной (доступной в клиентских компонентах)
+`API_URL` - пример приватной переменной (вызывающих ошибку в клиентских компонентах)

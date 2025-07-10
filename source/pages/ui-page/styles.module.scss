@@ -1,0 +1,17 @@
+.container {
+  border: 1px solid var(--foreground);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+
+    @include bp.tablet {
+      font-size: 4rem;
+    }
+  }
+}
