@@ -1,5 +1,6 @@
 import { UIButton } from '../../button'
 import { UIMainBlock } from '../../main-block'
+import { UISliderCard } from '../../slider-card'
 import classes from '../styles/styles.module.scss'
 
 export const UIList: React.FC = () => {
@@ -8,7 +9,7 @@ export const UIList: React.FC = () => {
       <UIMainBlock />
 
       <UIButton />
-
+      <UISliderCard />
       {/* Добавляем компоненты ниже */}
     </div>
   )
