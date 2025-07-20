@@ -1,5 +1,5 @@
 .container {
-  border: 1px dashed var(--foreground);
+  border: 1px dashed var(--color-foreground);
   display: flex;
   flex-direction: column;
   padding: 1rem;
@@ -19,7 +19,7 @@
 }
 
 .components {
-  margin-top: 0.5rem;
+  margin-top: 2rem;
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
