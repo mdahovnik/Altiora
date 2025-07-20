@@ -3,7 +3,7 @@
   --color-background1: #2f2f2f4d;
   --color-background2: #353735;
 
-  --color-foreground: #111111; //текст
+  --color-foreground: #ffffff; //текст
   --color-foreground-light1: #cccccc;
   --color-white-light: #ffffff;
   --color-white: #fefefe;
@@ -22,11 +22,12 @@ body {
   max-width: 100dvw;
   overflow-x: hidden;
   min-height: 100dvh;
+  background-color: var(--color-background);
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: var(--color-foreground);
+  background: var(--color-background);
   font-family: var(--font-main), serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -50,7 +51,7 @@ body {
     transition: text-decoration-color 0.2s ease-in-out;
 
     &:hover {
-      text-decoration-color: var(--foreground);
+      text-decoration-color: var(--color-accent-primary);
     }
   }
 }
@@ -67,7 +68,7 @@ h1 {
   line-height: 130%;
 
   span {
-    color: --color-accent-primary;
+    color: var(--color-accent-primary);
   }
 
   @include bp.tablet {
