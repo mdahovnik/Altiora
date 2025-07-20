@@ -12,7 +12,6 @@ export const UIList: React.FC = () => {
 
       {/* Добавляем компоненты ниже */}
       <UICheckbox />
-
     </div>
   )
 }
