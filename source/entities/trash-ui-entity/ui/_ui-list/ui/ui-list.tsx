@@ -1,7 +1,7 @@
 'use client'
 
 import { UIButton } from '../../button'
-import Input from '../../input'
+import { UIInput } from '../../input'
 import { UICardComponent } from '../../card-component/card-component'
 import { UICheckbox } from '../../checkbox'
 import { UIFooterInfoBlock } from '../../footer-info-block'
@@ -20,8 +20,7 @@ export const UIList: React.FC = () => {
       <UIMainBlock />
 
       <UIButton />
-      <Input label="" supportingText="инпут" value="" onClear={() => {}} />
-      <Input label="" supportingText="инпут с ошибкой" value="" error onClear={() => {}} />
+      <UIInput />
       <UIMarquee />
       <UICardComponent />
       <UIIcons />
