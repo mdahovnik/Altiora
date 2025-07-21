@@ -2,6 +2,7 @@ import { UIButton } from '../../button'
 import { UICardComponent } from '../../card-component/card-component'
 import { UICheckbox } from '../../checkbox'
 import { UIIcons } from '../../icons'
+import { UILogo } from '../../logo'
 import { UIMainBlock } from '../../main-block'
 import { UIMarquee } from '../../marquee'
 import { UISliderCard } from '../../slider-card'
@@ -15,7 +16,6 @@ export const UIList: React.FC = () => {
       <UIMainBlock />
 
       <UIButton />
-
       <UIMarquee />
       <UICardComponent />
 
@@ -24,6 +24,7 @@ export const UIList: React.FC = () => {
       {/* Добавляем компоненты ниже */}
       <UICheckbox />
       <MainMenuMobileTest />
+      <UILogo />
     </div>
   )
 }
