@@ -1,6 +1,7 @@
 import { UIButton } from '../../button'
 import { UICardComponent } from '../../card-component/card-component'
 import { UICheckbox } from '../../checkbox'
+import { UIFooterInfoBlock } from '../../footer-info-block'
 import { UIIcons } from '../../icons'
 import { UILogo } from '../../logo'
 import { UIMainBlock } from '../../main-block'
@@ -18,13 +19,13 @@ export const UIList: React.FC = () => {
       <UIButton />
       <UIMarquee />
       <UICardComponent />
-
       <UIIcons />
       <UISliderCard />
       {/* Добавляем компоненты ниже */}
       <UICheckbox />
       <MainMenuMobileTest />
       <UILogo />
+      <UIFooterInfoBlock />
     </div>
   )
 }
