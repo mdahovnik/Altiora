@@ -6,6 +6,8 @@ import { UILogo } from '../../logo'
 import { UIMainBlock } from '../../main-block'
 import { UIMarquee } from '../../marquee'
 import { UISliderCard } from '../../slider-card'
+import { MainMenuMobileTest } from '../../main-menu-mobile-test'
+
 import classes from '../styles/styles.module.scss'
 
 export const UIList: React.FC = () => {
@@ -21,6 +23,7 @@ export const UIList: React.FC = () => {
       <UISliderCard />
       {/* Добавляем компоненты ниже */}
       <UICheckbox />
+      <MainMenuMobileTest />
       <UILogo />
     </div>
   )
