@@ -1,8 +1,26 @@
 :root {
+
   --background: oklch(1 0 0);
   --background-hover: oklch(0.9 0 0);
   --foreground: oklch(0.2 0 0);
   --background-fill-hover: oklch(0.4 0 0);
+  --color-background: #111111; //фон
+  --color-background1: #2f2f2f4d;
+  --color-background2: #353735;
+
+  --color-foreground: #111111; //текст
+  --color-foreground-light1: #cccccc;
+  --color-white-light: #ffffff;
+  --color-white: #fefefe;
+  --color-grey: #f1f1f1;
+  --color-grey1: #cccccc;
+  --color-grey2: #666666;
+
+  --color-accent-primary: #50f195; //акцент
+  --color-accent-active: #59bb83;
+  --color-accent-old: #59bb83;
+  --color-error: #ff6f61;
+
 }
 
 html,
