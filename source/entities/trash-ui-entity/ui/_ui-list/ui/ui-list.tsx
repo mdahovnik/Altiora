@@ -1,4 +1,7 @@
+'use client'
+
 import { UIButton } from '../../button'
+import { UIInput } from '../../input'
 import { UICardComponent } from '../../card-component/card-component'
 import { UICheckbox } from '../../checkbox'
 import { UIFooterInfoBlock } from '../../footer-info-block'
@@ -17,6 +20,7 @@ export const UIList: React.FC = () => {
       <UIMainBlock />
 
       <UIButton />
+      <UIInput />
       <UIMarquee />
       <UICardComponent />
       <UIIcons />
