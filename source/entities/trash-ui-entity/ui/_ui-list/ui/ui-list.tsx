@@ -10,13 +10,9 @@ import classes from '../styles/styles.module.scss'
 export const UIList: React.FC = () => {
   return (
     <div className={classes.container}>
-      <UIMainBlock />
-
       <UIButton />
       <UIInput />
       {/* Добавляем компоненты ниже */}
-      <UICheckbox />
-      <MainMenuMobileTest />
     </div>
   )
 }
