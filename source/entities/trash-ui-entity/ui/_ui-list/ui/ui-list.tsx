@@ -2,7 +2,7 @@ import { UIButton } from '../../button'
 import { UICardComponent } from '../../card-component/card-component'
 import { UICheckbox } from '../../checkbox'
 import { UIIcons } from '../../icons'
-import { Logo } from '../../logo'
+import { UILogo } from '../../logo'
 import { UIMainBlock } from '../../main-block'
 import { UIMarquee } from '../../marquee'
 import { UISliderCard } from '../../slider-card'
@@ -21,7 +21,7 @@ export const UIList: React.FC = () => {
       <UISliderCard />
       {/* Добавляем компоненты ниже */}
       <UICheckbox />
-      <Logo />
+      <UILogo />
     </div>
   )
 }
