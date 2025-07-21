@@ -1,6 +1,11 @@
 import { UIButton } from '../../button'
+import { UICardComponent } from '../../card-component/card-component'
+import { UICheckbox } from '../../checkbox'
+import { UIIcons } from '../../icons'
 import { Logo } from '../../logo'
 import { UIMainBlock } from '../../main-block'
+import { UIMarquee } from '../../marquee'
+import { UISliderCard } from '../../slider-card'
 import classes from '../styles/styles.module.scss'
 
 export const UIList: React.FC = () => {
@@ -9,8 +14,14 @@ export const UIList: React.FC = () => {
       <UIMainBlock />
 
       <UIButton />
-      <Logo />
+      <UIMarquee />
+      <UICardComponent />
+
+      <UIIcons />
+      <UISliderCard />
       {/* Добавляем компоненты ниже */}
+      <UICheckbox />
+      <Logo />
     </div>
   )
 }
